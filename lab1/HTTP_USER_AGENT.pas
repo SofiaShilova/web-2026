@@ -1,0 +1,8 @@
+PROGRAM TestEnv(INPUT, OUTPUT);
+USES
+  DOS;
+BEGIN
+  WRITELN('Content-Type: text/plain');
+  WRITELN;
+  WRITELN(GetEnv('HTTP_USER_AGENT'))
+END.
